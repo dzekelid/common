@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payr
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Common
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/common/master/_listings/payrun/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Pay Run.IO - Get the Common schema
+  x-api-slug: schemascommon-xsd-get
+  description: Returns the Common schema object
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/common/master/_listings/payrun/schemascommon-xsd-get-openapi.md
 x-common:
 - type: x-website
   url: http://www.payrun.io
